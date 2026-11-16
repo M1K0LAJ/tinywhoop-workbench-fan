@@ -5,8 +5,8 @@ Tinywhoops overheat fast on the workbench. When the drone is plugged into a comp
 It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-C charging. The two-part PETG enclosure prints without supports and is joined with screws. Semi-transparent filament shows what's going on inside. Soft TPU feet with embedded nuts keep the fan quiet by dispersing vibrations.
 
 <p align="center">
-  <img src="images/photo-06.jpg" alt="Tinywhoop sitting on the cooling fan" width="45%">
-  <img src="images/photo-10.jpg" alt="Open enclosure: both halves, fan, battery and feet laid out" width="50%">
+  <img src="images/photo-06.jpg" alt="Tinywhoop sitting on the cooling fan" width="233">
+  <img src="images/photo-10.jpg" alt="Open enclosure: both halves, fan, battery and feet laid out" width="467">
 </p>
 
 **Author:** Mikołaj Markowski ([@M1K0LAJ](https://github.com/M1K0LAJ)), industrial designer and maker. Portfolio: [mikolajmarkowski.studio](https://mikolajmarkowski.studio). Project page: [mikolajmarkowski.studio/tinywhoop-fan](https://mikolajmarkowski.studio/tinywhoop-fan)
@@ -95,14 +95,14 @@ The switch is soldered into the red (positive) wire of the fan. For a simple DC 
 ## Gallery
 
 <p align="center">
-  <img src="images/photo-02.jpg" alt="Enclosure, 3/4 view" width="32%">
-  <img src="images/photo-12.jpg" alt="Open enclosure with fan, battery and feet" width="32%">
-  <img src="images/photo-05.jpg" alt="Tinywhoop on the fan with a USB-C cable plugged in" width="32%">
+  <img src="images/photo-02.jpg" alt="Enclosure, 3/4 view" width="350">
+  <img src="images/photo-07.jpg" alt="Top view of the fan with a tinywhoop on it and a USB-C cable on the right" width="350">
 </p>
 
 <p align="center">
-  <img src="images/photo-03.jpg" alt="Close-up of the switch and a screw head" width="32%">
-  <img src="images/photo-07.jpg" alt="Top view of the fan with a tinywhoop on it and a USB-C cable on the right" width="64%">
+  <img src="images/photo-12.jpg" alt="Open enclosure with fan, battery and feet" width="259">
+  <img src="images/photo-03.jpg" alt="Close-up of the switch and a screw head" width="221">
+  <img src="images/photo-05.jpg" alt="Tinywhoop on the fan with a USB-C cable plugged in" width="221">
 </p>
 
 ## License
