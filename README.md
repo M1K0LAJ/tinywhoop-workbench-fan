@@ -96,23 +96,12 @@ The switch is soldered into the red (positive) wire of the fan. For a simple DC 
 
 <p align="center">
   <img src="images/photo-02.jpg" alt="Enclosure, 3/4 view" width="32%">
-  <img src="images/photo-11.jpg" alt="Enclosure halves with fan and battery, top view" width="32%">
   <img src="images/photo-12.jpg" alt="Open enclosure with fan, battery and feet" width="32%">
-</p>
-
-<p align="center">
-  <img src="images/photo-01.jpg" alt="Enclosure from above: grille, switch and screw heads" width="32%">
   <img src="images/photo-05.jpg" alt="Tinywhoop on the fan with a USB-C cable plugged in" width="32%">
-  <img src="images/photo-08.jpg" alt="Top view of the fan with a tinywhoop on it" width="32%">
 </p>
 
 <p align="center">
   <img src="images/photo-03.jpg" alt="Close-up of the switch and a screw head" width="32%">
-  <img src="images/photo-04.jpg" alt="Close-up of the grille, switch and screw head from another angle" width="32%">
-  <img src="images/photo-09.jpg" alt="Side view with the purple TPU feet" width="32%">
-</p>
-
-<p align="center">
   <img src="images/photo-07.jpg" alt="Top view of the fan with a tinywhoop on it and a USB-C cable on the right" width="64%">
 </p>
 
