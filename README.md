@@ -16,7 +16,8 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 **Electronics**
 
 - 120 mm PC fan, 12 V (I used a salvaged SilentiumPC Sigma Pro, 12 V / 0.10 A; other 120 mm 12 V fans with the same frame size should fit, but I have not tested any)
-- 18650 UPS power module, 12 V output, USB-C input, with cell protection (battery holder, charging and step-up on one board; [example listing on AliExpress](https://pl.aliexpress.com/item/1005011844291829.html), mine came from msalamon.pl)
+- 18650 UPS power module, **12 V output**, USB-C input, with cell protection (battery holder, charging and step-up on one board; [example listing on AliExpress](https://pl.aliexpress.com/item/1005011844291829.html), mine came from msalamon.pl)
+  - **Important:** that listing sells several output-voltage versions. Select the **12 V** version before ordering, otherwise the fan will not run correctly.
 - 1x 18650 Li-ion cell (mine is a Roofer INR18650-2000A, 3.7 V, 2000 mAh)
 - Round rocker switch, on/off, 15 mm (the hole in the top panel is Ø14.6 mm with a small chamfer, so measure your switch before printing; I don't know the exact model of mine, it is a fairly standard one)
 - Some wire and heat shrink tubing
