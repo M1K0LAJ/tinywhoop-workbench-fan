@@ -16,9 +16,9 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 **Electronics**
 
 - 120 mm PC fan, 12 V (I used a salvaged SilentiumPC Sigma Pro, 12 V / 0.10 A; other 120 mm 12 V fans with the same frame size should fit, but I have not tested any)
-- 18650 UPS power module, 12 V output, USB-C input (battery holder, charging and step-up on one board; mine came from msalamon.pl, search for "18650 UPS 12V USB-C module")
+- 18650 UPS power module, 12 V output, USB-C input, with cell protection (battery holder, charging and step-up on one board; [example listing on AliExpress](https://pl.aliexpress.com/item/1005011844291829.html), mine came from msalamon.pl)
 - 1x 18650 Li-ion cell (mine is a Roofer INR18650-2000A, 3.7 V, 2000 mAh)
-- Round rocker switch, on/off, 10 mm
+- Round rocker switch, on/off, 15 mm (the hole in the top panel is Ø14.6 mm with a small chamfer, so measure your switch before printing; I don't know the exact model of mine, it is a fairly standard one)
 - Some wire and heat shrink tubing
 
 **3D printed parts**
@@ -48,9 +48,27 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 | [`cad/battery_module_model.stp`](cad/battery_module_model.stp) | STEP model of the battery module |
 | [`cad/cutouts_drawing.dxf`](cad/cutouts_drawing.dxf) | Cutout drawing (DXF) |
 
+## Wiring
+
+Everything runs on the 12 V output of the power module:
+
+```text
+18650 cell ──► power module (USB-C charging, step-up to 12 V)
+
+module 12 V +  ────────────────────────►  fan red wire (+)
+module 12 V −  ────── switch ──────────►  fan black wire (−)
+```
+
+The switch is soldered into the ground (negative) line of the fan. The cell is charged through the USB-C port of the module.
+
+## Use
+
+- **On the workbench:** the fan blows upward, out of the top grille, onto the drone sitting on it.
+- **As a fume extractor:** stand it upright with the feet toward the soldering iron, and it blows the fumes away while you solder.
+
 ## Printing notes
 
-- **Enclosure:** PETG, no supports needed.
+- **Enclosure:** PETG, no supports needed. I printed mine in a slicer mode tuned for translucency; the exact settings were not recorded, so use your usual PETG profile.
 - **Feet:** TPU, 4 pieces. The nut is sealed inside the foot during the print, so the print has to be paused once:
   1. Print until the nut pocket is fully open at the top. The pause in the 3MF is set at **Z = 5.0 mm**.
   2. Drop an M3 nut into the pocket and push it all the way down, so the nozzle does not catch it.
@@ -62,7 +80,7 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 
 - Li-ion cells can catch fire if shorted, punctured, overcharged or deeply discharged. Use a cell from a reputable source and never a damaged one.
 - Check the polarity before connecting the cell, and do not short the leads while soldering.
-- Not every power module protects the cell. Check the datasheet of the one you buy, and use a protected 18650 if the module has no protection.
+- The module I used has protection for the cell. Not every module does, so check the listing of the one you buy, and use a protected 18650 if the module has none.
 - Do not leave the fan charging unattended. This is a DIY build, so build and use it at your own risk.
 
 ## Gallery
