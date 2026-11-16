@@ -44,6 +44,7 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 | [`print/foot.stl`](print/foot.stl) | Foot (print 4x in TPU) |
 | [`print/feet_with_nut_pause.3mf`](print/feet_with_nut_pause.3mf) | Feet with the nut pause already set up (BambuStudio project) |
 | [`cad/panels.step`](cad/panels.step) | STEP model of both enclosure halves (the two solids are named `gora` = top and `dol` = bottom) |
+| [`cad/foot.step`](cad/foot.step) | STEP model of the foot |
 | [`cad/battery_module_model.stp`](cad/battery_module_model.stp) | STEP model of the battery module |
 | [`cad/cutouts_drawing.dxf`](cad/cutouts_drawing.dxf) | Cutout drawing (DXF) |
 
