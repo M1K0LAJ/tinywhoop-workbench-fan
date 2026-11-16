@@ -9,6 +9,8 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
   <img src="images/photo-10.jpg" alt="Exploded view: enclosure halves, fan, battery and feet" width="50%">
 </p>
 
+**Author:** Mikołaj Markowski ([@M1K0LAJ](https://github.com/M1K0LAJ))
+
 ## Parts list
 
 **Electronics**
@@ -37,10 +39,11 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 
 | File | What it is |
 | --- | --- |
-| [`print/panel_up.stl`](print/panel_up.stl) | Enclosure, top half (fan grille) |
-| [`print/panel_down.stl`](print/panel_down.stl) | Enclosure, bottom half |
+| [`print/panel_top.stl`](print/panel_top.stl) | Enclosure, top half (fan grille) |
+| [`print/panel_bottom.stl`](print/panel_bottom.stl) | Enclosure, bottom half |
 | [`print/foot.stl`](print/foot.stl) | Foot (print 4x in TPU) |
 | [`print/feet_with_nut_pause.3mf`](print/feet_with_nut_pause.3mf) | Feet with the nut pause already set up (BambuStudio project) |
+| [`cad/panels.step`](cad/panels.step) | STEP model of both enclosure halves (the two solids are named `gora` = top and `dol` = bottom) |
 | [`cad/battery_module_model.stp`](cad/battery_module_model.stp) | STEP model of the battery module |
 | [`cad/cutouts_drawing.dxf`](cad/cutouts_drawing.dxf) | Cutout drawing (DXF) |
 
@@ -60,4 +63,4 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 
 ## License
 
-Released under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). You are free to build, modify and share it, including commercially, as long as you credit the author (M1K0LAJ) and share your modifications under the same license.
+Released under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). You are free to build, modify and share it, including commercially, as long as you credit the author (Mikołaj Markowski) and share your modifications under the same license.
