@@ -6,7 +6,7 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 
 <p align="center">
   <img src="images/photo-06.jpg" alt="Tinywhoop sitting on the cooling fan" width="45%">
-  <img src="images/photo-10.jpg" alt="Exploded view: enclosure halves, fan, battery and feet" width="50%">
+  <img src="images/photo-10.jpg" alt="Open enclosure: both halves, fan, battery and feet laid out" width="50%">
 </p>
 
 **Author:** Mikołaj Markowski ([@M1K0LAJ](https://github.com/M1K0LAJ)), industrial designer and maker. Portfolio: [mikolajmarkowski.studio](https://mikolajmarkowski.studio). Project page: [mikolajmarkowski.studio/tinywhoop-fan](https://mikolajmarkowski.studio/tinywhoop-fan)
@@ -51,8 +51,19 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
 ## Printing notes
 
 - **Enclosure:** PETG, no supports needed.
-- **Feet:** TPU. Add a pause in your slicer at the layer where the nut pocket is still open, drop the M3 nut in, then resume the print so the nut ends up sealed inside the foot. The 3MF in `print/` already has this pause set (BambuStudio). In another slicer, set the pause yourself.
+- **Feet:** TPU, 4 pieces. The nut is sealed inside the foot during the print, so the print has to be paused once:
+  1. Print until the nut pocket is fully open at the top. The pause in the 3MF is set at **Z = 5.0 mm**.
+  2. Drop an M3 nut into the pocket and push it all the way down, so the nozzle does not catch it.
+  3. Resume the print. The nut ends up sealed inside the foot.
+- **3MF profile:** `print/feet_with_nut_pause.3mf` is a BambuStudio project for a Bambu Lab A1 mini (0.4 mm nozzle, Generic TPU, 0.20 mm layers, 2 walls, 30% gyroid infill, no supports) with the pause already set. On another printer or slicer, re-slice the STL and add the pause at Z = 5.0 mm yourself.
 - The model was designed in Rhino and sliced in BambuStudio. The original Rhino file is not included because of its size.
+
+## Safety
+
+- Li-ion cells can catch fire if shorted, punctured, overcharged or deeply discharged. Use a cell from a reputable source and never a damaged one.
+- Check the polarity before connecting the cell, and do not short the leads while soldering.
+- Not every power module protects the cell. Check the datasheet of the one you buy, and use a protected 18650 if the module has no protection.
+- Do not leave the fan charging unattended. This is a DIY build, so build and use it at your own risk.
 
 ## Gallery
 
