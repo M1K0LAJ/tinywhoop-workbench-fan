@@ -9,7 +9,7 @@ It is built from a salvaged 120 mm PC fan and powered by an 18650 cell with USB-
   <img src="images/photo-10.jpg" alt="Exploded view: enclosure halves, fan, battery and feet" width="50%">
 </p>
 
-**Author:** Mikołaj Markowski ([@M1K0LAJ](https://github.com/M1K0LAJ))
+**Author:** Mikołaj Markowski ([@M1K0LAJ](https://github.com/M1K0LAJ)), industrial designer and maker. Portfolio: [mikolajmarkowski.studio](https://mikolajmarkowski.studio). Project page: [mikolajmarkowski.studio/tinywhoop-fan](https://mikolajmarkowski.studio/tinywhoop-fan)
 
 ## Parts list
 
